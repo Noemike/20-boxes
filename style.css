@@ -1,5 +1,8 @@
 body {
     display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
     
 }
 
@@ -15,16 +18,18 @@ body {
     background-color: white;
 }
 
-.secong-row {
+.second-row {
     background-color: orangered;
 }
 
 div {
-    border: 1px solid blue
+    border: 1px solid blue;
+    display: flex;
+   margin: 0.5%;
    
 }
 
 p {
-    padding: 15px;
+    padding: 20px;
     margin: 15px;
 }
