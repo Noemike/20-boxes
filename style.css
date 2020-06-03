@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.first-row {
+    background-color: white;
+}
+
+.secong-row {
+    background-color: orangered;
+}
+
+div {
+    border: 1px solid blue
+   
+}
+
+p {
+    padding: 15px;
+    margin: 15px;
+}
