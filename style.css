@@ -2,34 +2,32 @@ body {
     display: flex;
     flex-direction: column;
     width: fit-content;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .blue {
-    background-color: blue;
+    background-color: rgb(54, 96, 214);
 }
 
 .purple {
-    background-color: purple;
+    background-color: rgb(128, 27, 128);
 }
 
-.first-row {
-    background-color: white;
-}
-
-.second-row {
+#second-row {
     background-color: orangered;
+    margin-top: 0px;
 }
 
 div {
     border: 1px solid blue;
     display: flex;
-   margin: 0.5%;
-   
-}
+    margin: 15px;
+    padding: 5px;
+
+   }
 
 p {
     padding: 20px;
     margin: 15px;
+    
 }
