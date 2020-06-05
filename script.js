@@ -22,27 +22,33 @@ if (a < 5) {
     console.log(a*2);
 }
 
-
-/*for (let i = 0; i < 21; i++) {
-    console.log(i);
-} */
-
 //Print the even numbers between 0 and 20.
 
-
-//Exercise 1
-//Use your previous for loops and create a function which print the first N numbers.
 
 let bookCount = 21;
 for (let i = 0; i < bookCount; i++) {
     console.log(i)
+} 
+
+let getGreetingTo = name =>  {
+    console.log(`Hello, ${name}`);
 }
 
-let printNumbersTill= (i) => {
-    i>=20;
+console.log(getGreetingTo('Bea'))
+
+//Exercise 1
+//Use your previous for loops and create a function which print the first N numbers.
+/*let printNumbersTill= numbers => {
+    for (let i = 0; i < bookCount; i++) {
+        console.log(i)}
 }
 
-printNumbersTill(20)
+console.log(printNumbersTill(10))*/
 
-
+let numbers = ['one', 'three', 'nine', 'eight', 'seven', 'six',]
+let printValues = numbers => {
+    for (let i = 0; i < numbers.length; i++) {
+        console.log= (numbers[i]); 
+    }
+}
 
