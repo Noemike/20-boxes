@@ -46,9 +46,8 @@ console.log(getGreetingTo('Bea'))
 console.log(printNumbersTill(10))*/
 
 let numbers = ['one', 'three', 'nine', 'eight', 'seven', 'six',]
-let printValues = numbers => {
+let printValues = (numbers) => {
     for (let i = 0; i < numbers.length; i++) {
-        console.log= (numbers[i]); 
+        console.log(numbers[i]); 
     }
 }
-
