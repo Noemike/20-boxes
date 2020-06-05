@@ -42,5 +42,7 @@ let printNumbersTill= (i) => {
     i>=20;
 }
 
+printNumbersTill(20)
+
 
 
